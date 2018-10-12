@@ -1,5 +1,10 @@
 body {
   font-family: 'Maven Pro', sans-serif;
+  min-height: 100%;
+}
+
+.main-container {
+  min-height: 95vh;
 }
 
 @keyframes fade {
@@ -7,12 +12,55 @@ body {
   100% {opacity: 1;}
 }
 
+div .left-profile {
+  min-height: 95vh;
+  background-image: url(./docs/profile-background.jpeg);
+  background-repeat: no-repeat;
+  background-size: 80em;
+}
+
 img.dp {
   animation: fade .8s linear;
 }
 
-
-
 fas fa-download {
   color: white;
+}
+
+.contact {
+  border-radius: 20px;
+  font-size: .8em;
+}
+
+.contact .icons {
+  font-size: 1.5em;
+  margin-right: .6em;
+}
+
+.contact a:link {
+  color: lightgrey;
+}
+
+.contact li {
+  /* background-color: rgba(255, 255, 255, 0.4); */
+  background-color: rgba(0, 0, 0, 0.5);
+  color: lightgrey;
+  border: 0px;
+}
+
+.languages {
+  font-size: 2.2em;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+}
+
+.languages i:hover {
+  text-shadow: 0 0 5px white;
+}
+
+.skills {
+  font-weight: strong;
+  color: white;
+  text-shadow: 0 0 1em black;
 }
