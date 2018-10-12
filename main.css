@@ -1,3 +1,18 @@
+body {
+  font-family: 'Maven Pro', sans-serif;
+}
+
+@keyframes fade {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+img.dp {
+  animation: fade .8s linear;
+}
+
+
+
 fas fa-download {
   color: white;
 }
