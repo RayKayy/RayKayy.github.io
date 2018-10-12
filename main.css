@@ -13,14 +13,26 @@ body {
 }
 
 div .left-profile {
-  min-height: 95vh;
-  background-image: url(./docs/profile-background.jpeg);
+  min-height: 110vh;
+  background-image: url(./docs/profile-bg.jpg);
+  background-size: 50em;
+  background-position: right;
+  /* background-color: rgb(34, 34, 34);
+  border-right: 1px solid lightcyan;
+  border-bottom: 1px solid lightcyan; */
+}
+
+div .right-projects {
+  min-height: 110vh;
+  background-image: url(./docs/projects-bg.jpeg);
   background-repeat: no-repeat;
   background-size: 80em;
 }
 
 img.dp {
   animation: fade .8s linear;
+  height: 40%;
+  width: 40%;
 }
 
 fas fa-download {
@@ -42,7 +54,6 @@ fas fa-download {
 }
 
 .contact li {
-  /* background-color: rgba(255, 255, 255, 0.4); */
   background-color: rgba(0, 0, 0, 0.5);
   color: lightgrey;
   border: 0px;
@@ -63,4 +74,21 @@ fas fa-download {
   font-weight: strong;
   color: white;
   text-shadow: 0 0 1em black;
+}
+
+.project-slides {
+  max-width: 80%;
+}
+
+.project-title {
+  color: white;
+}
+
+.full-name {
+  color: white;
+}
+
+.carousel-caption {
+  background-color: rgba(36, 36, 36, 0.75);
+  border-radius: 15px;
 }
