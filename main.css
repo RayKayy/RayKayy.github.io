@@ -44,6 +44,7 @@ fas fa-download {
 }
 
 .contact {
+  animation: fade .8s linear;
   border-radius: 20px;
   font-size: .8em;
 }
@@ -69,6 +70,7 @@ fas fa-download {
 }
 
 .languages {
+  animation: fade .8s linear;
   font-size: 2.2em;
   color: white;
   background-color: rgba(0, 0, 0, 0.5);
@@ -99,9 +101,10 @@ fas fa-download {
   border-radius: 15px;
 }
 
-.carousel-item {
-  max-height: 80%;
+.carousel-item img {
+  height: 50vh;
 }
+
 
 div .projects {
   background-color: rgba(36, 36, 36, 0.45);
@@ -111,7 +114,7 @@ div .projects {
   padding-bottom: 3em;
 }
 
-div .about-me {
+div .sect {
   color: white;
   background-color: rgba(36, 36, 36, 0.25);
   margin: 0 2em 0 2em;
