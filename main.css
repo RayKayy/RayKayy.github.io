@@ -1,6 +1,6 @@
 body {
   font-family: 'Maven Pro', sans-serif;
-  min-height: 100%;
+  min-height: 100vh;
 }
 
 nav {
@@ -8,7 +8,7 @@ nav {
 }
 
 .main-container {
-  min-height: 92vh;
+  min-height: 100vh;
 }
 
 @keyframes fade {
@@ -17,7 +17,7 @@ nav {
 }
 
 div .left-profile {
-  min-height: 92vh;
+  min-height: 100vh;
   background-image: url(./docs/profile-bg.jpg);
   background-size: 50em;
   background-position: right;
@@ -27,9 +27,10 @@ div .left-profile {
 }
 
 div .right-projects {
-  height: 92vh;
+  min-height: 100vh;
   background-image: url(./docs/projects-bg.jpeg);
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
+  background-size: auto;
 }
 
 img.dp {
@@ -108,7 +109,6 @@ div .projects {
   padding-top: 1em;
   border-radius: 3em;
   padding-bottom: 3em;
-  min-height: 30em;
 }
 
 div .about-me {
@@ -126,6 +126,6 @@ div .about-me {
 }
 
 .scrollable {
-  height: 92vh;
+  height: 100vh;
   overflow-y: auto;
 }

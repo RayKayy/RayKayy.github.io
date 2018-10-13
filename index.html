@@ -24,7 +24,7 @@
   <body style="height:100%;font-family: 'Maven Pro', sans-serif;">
 
 
-    <nav class="navbar sticky-top navbar-expand-sm navbar-dark bg-dark">
+    <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
       <a class="navbar-brand" href="/">
         <img src="./docs/r-logo.png" width="35" height="35" alt="">
         Raymond Kwan
@@ -47,7 +47,7 @@
             <form method="get" action="./docs/raymond-kwan-resume.pdf">
               <button
                 type="submit"
-                class="btn btn-outline-info"
+                class="btn-sm btn-outline-info"
                 data-toggle="popover"
                 data-placement="bottom"
                 data-content="Click to download Resume!">
@@ -66,6 +66,7 @@
 
 
         <div class="col-lg-3 left-profile d-flex flex-column" style="height:100%;">
+          <div class="w-100 mt-5"></div>
           <div class="d-flex justify-content-center mt-4">
             <img src="./docs/DP.jpeg" class="dp shadow rounded-circle img-fluid">
           </div>
@@ -100,82 +101,80 @@
               <div class="col"><i class="fas fa-gem"></i></div>
               <div class="col"><i class="fab fa-python"></i></div>
               <div class="col"><i class="fas fa-database"></i></div>
-
             </div>
           </div>
-
         </div>
 
 
-        <!-- <div class="blur h-100 w-100"></div> -->
-        <div class="col-lg-9 right-projects" style="height:100%">
+        <div class="col-lg-9 right-projects">
 
 
           <div class="scrollable">
+            <br />
+            <br />
 
-          <section id="about" class="about-me row d-flex mt-3">
-            <h2 class="section-head">About Me</h2>
-            <div class="w-100"></div>
-            <strong>H.B.A. in Environmental Management <i class="fas fa-arrow-right"></i> {Web Developer};</strong>
-            <div class="w-100"></div>
-            <strong>{ was_in: ['Hong Kong', 'Shanghai'], currently_in: 'Toronto' };</strong>
-            <div class="w-100"></div>
-            <p class="text-justify">
-              <em>I fell in love with coding after taking my first course in programming towards the end of my degree.</em><br /><br />
-              Highly motivated and efficient individual with solid skills working with Javascript and the MERN stack, both
-              independently and collaboratively; experience with multiple programming languages. I have planned, managed and developed web
-              applications in a team-based environment. Works well in complex, dynamic, and deadline driven environments. Exceptional
-              verbal and written communication skills, fluent in English, Mandarin, and Cantonese. Internationally experienced,
-              flexible and adaptive to varying environments both culturally and physically.<br /><br />
-              <em>Currently actively searching for a position as a Junior Developer.</em>
-            </p>
+            <section id="about" class="sect about-me row d-flex mt-4">
+              <h2 class="section-head">About Me</h2>
+              <div class="w-100"></div>
+              <strong>H.B.A. in Environmental Management <i class="fas fa-arrow-right"></i> {Web Developer};</strong>
+              <div class="w-100"></div>
+              <strong>{ was_in: ['Hong Kong', 'Shanghai'], currently_in: 'Toronto' };</strong>
+              <div class="w-100"></div>
+              <p class="text-justify">
+                <em>I fell in love with coding after taking my first course in programming towards the end of my degree.</em><br /><br />
+                Highly motivated and efficient individual with solid skills working with Javascript and the MERN stack, both
+                independently and collaboratively; experience with multiple programming languages. I have planned, managed and developed web
+                applications in a team-based environment. Works well in complex, dynamic, and deadline driven environments. Exceptional
+                verbal and written communication skills, fluent in English, Mandarin, and Cantonese. Internationally experienced,
+                flexible and adaptive to varying environments both culturally and physically.<br /><br />
+                <em>Currently actively searching for a position as a Junior Developer.</em>
+              </p>
+            </section>
 
-          </section>
 
-
-          <div id="projects" class="row d-flex justify-content-center mt-5 projects">
-            <h2 class="section-head">My Projects</h2>
-            <!-- <div class="w-100 h-0"></div> -->
-            <div id="carouselProject" class="carousel slide project-slides mt-3" data-ride="carousel">
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <a target="_blank" href="https://github.com/RayKayy/rainforest-rails/">
-                    <img class="d-block w-100" src="https://github.com/RayKayy/rainforest-rails/raw/master/docs/Home.png?raw=true" alt="First slide">
-                  </a>
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5>Rainforest</h5>
-                    <p>E-commerce app using Ruby on Rails</p>
+            <div id="projects" class="row d-flex justify-content-center mt-5 projects">
+              <h2 class="section-head">My Projects</h2>
+              <!-- <div class="w-100 h-0"></div> -->
+              <div id="carouselProject" class="carousel slide project-slides mt-3" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <a target="_blank" href="https://github.com/RayKayy/rainforest-rails/">
+                      <img class="d-block w-100" src="https://github.com/RayKayy/rainforest-rails/raw/master/docs/Home.png?raw=true" alt="First slide">
+                    </a>
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Rainforest</h5>
+                      <p>E-commerce app using Ruby on Rails</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <a target="_blank" href="https://github.com/RayKayy/tweeter/">
+                      <img class="d-block w-100" src="https://github.com/RayKayy/tweeter/raw/master/docs/tweet-box1.png?raw=true" alt="Second slide">
+                    </a>
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Tweeter</h5>
+                      <p>A simple Twitter clone using MongoDB</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <a target="_blank" href="https://github.com/RayKayy/hichat-app/">
+                      <img class="d-block w-100" src="https://github.com/RayKayy/hichat-app/raw/master/docs/hichat_demo.png?raw=true" alt="Third slide">
+                    </a>
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>HiChat</h5>
+                      <p>A real-time chat app using React and web-sockets</p>
+                    </div>
                   </div>
                 </div>
-                <div class="carousel-item">
-                  <a target="_blank" href="https://github.com/RayKayy/tweeter/">
-                    <img class="d-block w-100" src="https://github.com/RayKayy/tweeter/raw/master/docs/tweet-box1.png?raw=true" alt="Second slide">
-                  </a>
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5>Tweeter</h5>
-                    <p>A simple Twitter clone using MongoDB</p>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <a target="_blank" href="https://github.com/RayKayy/hichat-app/">
-                    <img class="d-block w-100" src="https://github.com/RayKayy/hichat-app/raw/master/docs/hichat_demo.png?raw=true" alt="Third slide">
-                  </a>
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5>HiChat</h5>
-                    <p>A real-time chat app using React and web-sockets</p>
-                  </div>
-                </div>
+                <a class="carousel-control-prev" href="#carouselProject" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselProject" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
               </div>
-              <a class="carousel-control-prev" href="#carouselProject" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="carousel-control-next" href="#carouselProject" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
             </div>
-          </div>
           </div>
 
 
