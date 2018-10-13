@@ -4,11 +4,11 @@ body {
 }
 
 nav {
-  height: 8vh;
+  /* height: 8vh; */
 }
 
 .main-container {
-  height: 92vh;
+  min-height: 92vh;
 }
 
 @keyframes fade {
@@ -17,7 +17,7 @@ nav {
 }
 
 div .left-profile {
-  height: 92vh;
+  min-height: 92vh;
   background-image: url(./docs/profile-bg.jpg);
   background-size: 50em;
   background-position: right;
@@ -93,10 +93,6 @@ fas fa-download {
   max-width: 80%;
 }
 
-.project-title {
-  color: white;
-}
-
 .carousel-caption {
   background-color: rgba(36, 36, 36, 0.75);
   border-radius: 15px;
@@ -123,7 +119,7 @@ div .about-me {
   border-radius: 1em;
 }
 
-div .about-me h2 {
+.section-head {
   text-shadow: 0 .05em .1em black;
   color: rgb(255, 255, 255);
   font-weight: bold;
