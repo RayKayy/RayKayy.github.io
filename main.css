@@ -3,8 +3,12 @@ body {
   min-height: 100%;
 }
 
+nav {
+  height: 8vh;
+}
+
 .main-container {
-  min-height: 95vh;
+  height: 92vh;
 }
 
 @keyframes fade {
@@ -13,7 +17,7 @@ body {
 }
 
 div .left-profile {
-  min-height: 110vh;
+  height: 92vh;
   background-image: url(./docs/profile-bg.jpg);
   background-size: 50em;
   background-position: right;
@@ -23,10 +27,9 @@ div .left-profile {
 }
 
 div .right-projects {
-  min-height: 110vh;
+  height: 92vh;
   background-image: url(./docs/projects-bg.jpeg);
   background-repeat: no-repeat;
-  background-size: 80em;
 }
 
 img.dp {
@@ -49,6 +52,11 @@ fas fa-download {
   margin-right: .6em;
 }
 
+.contact .email a:link {
+  color: lightgrey;
+  font-size: .8em;
+}
+
 .contact a:link {
   color: lightgrey;
 }
@@ -68,6 +76,11 @@ fas fa-download {
 
 .languages i:hover {
   text-shadow: 0 0 5px white;
+  color: black;
+}
+
+.full-name {
+  color: white;
 }
 
 .skills {
@@ -84,11 +97,39 @@ fas fa-download {
   color: white;
 }
 
-.full-name {
-  color: white;
-}
-
 .carousel-caption {
   background-color: rgba(36, 36, 36, 0.75);
   border-radius: 15px;
+}
+
+.carousel-item {
+  max-height: 80%;
+}
+
+div .projects {
+  background-color: rgba(36, 36, 36, 0.45);
+  margin: 0 2em 0 2em;
+  padding-top: 1em;
+  border-radius: 3em;
+  padding-bottom: 3em;
+  min-height: 30em;
+}
+
+div .about-me {
+  color: white;
+  background-color: rgba(36, 36, 36, 0.25);
+  margin: 0 2em 0 2em;
+  padding: 2em 1.5em 2em 1.5em;
+  border-radius: 1em;
+}
+
+div .about-me h2 {
+  text-shadow: 0 .05em .1em black;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+
+.scrollable {
+  height: 92vh;
+  overflow-y: auto;
 }
