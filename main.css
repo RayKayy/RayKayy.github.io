@@ -103,6 +103,7 @@ fas fa-download {
 
 .carousel-item img {
   height: 50vh;
+  width: auto;
 }
 
 
@@ -129,6 +130,7 @@ div .sect {
 }
 
 .scrollable {
-  height: 100vh;
+  margin-top: 8vh;
+  height: 92vh;
   overflow-y: auto;
 }
