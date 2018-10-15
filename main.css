@@ -84,6 +84,11 @@ fas fa-download {
   color: lightgrey;
 }
 
+.contact a:visited{
+color: grey;
+}
+
+
 .contact li {
   background-color: rgba(0, 0, 0, 0.5);
   color: lightgrey;
