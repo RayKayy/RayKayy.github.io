@@ -86,24 +86,87 @@
               <li class="list-group-item hvr-icon-grow">
                 <i class="hvr-icon icons fab fa-github"></i>  <a target="_blank" href="https://github.com/RayKayy">RayKayy</a>
               </li>
-                <!-- <li class="list-group-item"><i class="icons fab fa-instagram"></i>  @raymondk94</li>
-              <li class="list-group-item"><i class="icons fab fa-weixin"></i>  raymondk94</li> -->
             </ul>
           </div>
 
-          <h5 class="skills mt-4 text-center">Skills</h5>
+          <!-- Skills Section with Icons -->
+          <h5 class="skills mt-4 text-center">Languages/Libraries</h5>
           <div class="container text-center languages mt-1 mb-5">
             <div class="row">
-              <div class="col"><i class="fast fab fa-js-square"></i></div>
-              <div class="col"><i class="slow fab fa-react"></i></div>
-              <div class="col"><i class="slow fab fa-node-js"></i></div>
+              <div class="col">
+                <i data-container="body"
+                  data-toggle="popover"
+                  data-placement="top"
+                  data-content="ECMAScript 6"
+                  data-trigger="hover"
+                  class="fast fab fa-js-square">
+                </i>
+              </div>
+              <div class="col">
+                <i data-container="body"
+                  data-toggle="popover"
+                  data-placement="top"
+                  data-content="React"
+                  data-trigger="hover"
+                  class="slow fab fa-react">
+                </i>
+              </div>
+              <div class="col">
+                <i data-container="body"
+                  data-toggle="popover"
+                  data-placement="top"
+                  data-content="Node.js"
+                  data-trigger="hover"
+                  class="slow fab fa-node-js">
+                </i>
+              </div>
               <div class="w-100"></div>
-              <div class="col"><i class="fast fab fa-html5"></i></div>
-              <div class="col"><i class="slow fab fa-css3-alt"></i></div>
+              <div class="col">
+                <i data-container="body"
+                  data-toggle="popover"
+                  data-placement="right"
+                  data-content="HTML5"
+                  data-trigger="hover"
+                  class="fast fab fa-html5">
+                </i>
+              </div>
+              <div class="col">
+                <i data-container="body"
+                  data-toggle="popover"
+                  data-placement="left"
+                  data-content="CSS3"
+                  data-trigger="hover"
+                  class="slow fab fa-css3-alt">
+                </i>
+              </div>
               <div class="w-100"></div>
-              <div class="col"><i class="slow fas fa-gem"></i></div>
-              <div class="col"><i class="fast fab fa-python"></i></div>
-              <div class="col"><i class="slow fas fa-database"></i></div>
+              <div class="col">
+                <i data-container="body"
+                  data-toggle="popover"
+                  data-placement="bottom"
+                  data-content="Ruby"
+                  data-trigger="hover"
+                  class="slow fas fa-gem">
+                </i>
+              </div>
+              <div class="col">
+                <i data-container="body"
+                  data-toggle="popover"
+                  data-placement="bottom"
+                  data-content="Python"
+                  data-trigger="hover"
+                  class="fast fab fa-python">
+                </i>
+              </div>
+              <div class="col">
+                <i data-container="body"
+                  data-toggle="popover"
+                  data-placement="bottom"
+                  data-content="SQL"
+                  data-trigger="hover"
+                  class="slow fas fa-database">
+                </i>
+              </div>
             </div>
           </div>
         </div>
@@ -198,4 +261,11 @@
     integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
     crossorigin="anonymous"></script>
   </body>
+
+  <script>
+    $(document).ready(function () {
+      $('[data-toggle="popover"]').popover();
+    });
+  </script>
+
 </html>

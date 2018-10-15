@@ -186,6 +186,10 @@ div .sect {
   overflow-y: auto;
 }
 
+.popover {
+  opacity: 1;
+}
+
 /* Hover.css */
 
 .hvr-icon-grow {
