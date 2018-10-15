@@ -210,7 +210,8 @@
             <section id="projects" class="sect row d-flex justify-content-center mt-5 projects">
               <h2 class="section-head">My Projects</h2>
               <div class="w-100 h-0"></div>
-              <div id="carouselProject" class="carousel slide project-slides mt-3" data-ride="carousel">
+
+              <div id="carouselProject" class="d-none d-md-block carousel slide project-slides mt-3" data-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
                     <img class="d-block w-100" src="https://github.com/RayKayy/rainforest-rails/raw/master/docs/Home.png?raw=true" alt="Rainforest project">
@@ -247,6 +248,19 @@
                 <a class="carousel-control-next" href="#carouselProject" role="button" data-slide="next">
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="sr-only">Next</span>
+                </a>
+              </div>
+
+              <!-- Change to list view on 'sm' devices -->
+              <div class="list-group list-projects d-md-none mt-3">
+                <a target="_blank" href="https://github.com/RayKayy/tweeter/" class="list-group-item list-group-item-action">
+                  <strong>Tweeter</strong><br /> Simple Twitter clone
+                </a>
+                <a target="_blank" href="https://github.com/RayKayy/rainforest-rails/" class="list-group-item list-group-item-action">
+                  <strong>Rainforest</strong><br /> E-commerce Web App - Ruby on Rails
+                </a>
+                <a target="_blank" href="https://github.com/RayKayy/hichat-app/" class="list-group-item list-group-item-action">
+                  <strong>Hichat</strong><br /> Real-time chat app - React and web-sockets
                 </a>
               </div>
             </section>
