@@ -108,10 +108,6 @@ color: grey;
   animation: glowing 6000ms ease-in-out infinite;
 }
 
-.languages i.fa-js-square {
-  animation: glowing 7000ms ease-in-out infinite;
-}
-
 .languages i:hover {
   text-shadow: 0 0 5px white;
   color: black;
