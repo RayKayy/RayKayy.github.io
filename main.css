@@ -48,6 +48,7 @@ div .right-projects {
   background-image: url(./docs/projects-bg.jpeg);
   background-color: rgb(255, 197, 149);
   background-size: auto;
+  padding: 0;
 }
 
 img.dp {
@@ -176,6 +177,22 @@ div.experience-card {
 
 div img.card-cap {
   height: 8em;
+}
+
+footer {
+  background: rgba(0, 0, 0, 0.801);
+}
+
+footer .btn {
+  border-radius: 3em;
+}
+
+small {
+  color: white;
+}
+
+footer div.spacer {
+  height: 1em;
 }
 
 
