@@ -18,10 +18,10 @@ nav {
 }
 
 @keyframes glowing {
-  0% { text-shadow: 0 0 -10px lightgoldenrodyellow; }
-  40% { text-shadow: 0 0 20px lightgoldenrodyellow; }
-  60% { text-shadow: 0 0 20px lightgoldenrodyellow; }
-  100% { text-shadow: 0 0 -10px lightgoldenrodyellow; }
+  0% { text-shadow: 0 0 -10px lightblue; }
+  40% { text-shadow: 0 0 20px lightblue; }
+  60% { text-shadow: 0 0 20px lightblue; }
+  100% { text-shadow: 0 0 -10px lightblue; }
 }
 
 @keyframes fadeInLeft {
@@ -104,32 +104,8 @@ color: grey;
   border-radius: 15px;
 }
 
-.languages i.fa-database {
-  animation: glowing 6800ms ease-in-out infinite;
-}
-
-.languages i.fa-python {
-  animation: glowing 6500ms ease-in-out infinite;
-}
-
-.languages i.fa-gem {
-  animation: glowing 4200ms ease-in-out infinite;
-}
-
-.languages i.fa-css3-alt {
-  animation: glowing 5500ms ease-in-out infinite;
-}
-
-.languages i.fa-html5 {
-  animation: glowing 5700ms ease-in-out infinite;
-}
-
-.languages i.fa-node-js {
+.languages i {
   animation: glowing 6000ms ease-in-out infinite;
-}
-
-.languages i.fa-react {
-  animation: glowing 4700ms ease-in-out infinite;
 }
 
 .languages i.fa-js-square {
