@@ -66,7 +66,7 @@ fas fa-download {
   font-size: .8em;
 }
 
-.list-group-item {
+.contact .list-group-item {
   animation: fadeInLeft .8s linear;
 }
 
@@ -169,6 +169,15 @@ div .sect {
 .popover {
   opacity: 1;
 }
+
+div.experience-card {
+  background: rgba(36, 36, 36, 0.25);
+}
+
+div img.card-cap {
+  height: 7em;
+}
+
 
 /* Hover.css */
 
